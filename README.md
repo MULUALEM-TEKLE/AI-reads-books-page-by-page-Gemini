@@ -8,7 +8,9 @@ This tool(based on https://github.com/echohive42/AI-reads-books-page-by-page ) a
 
 1.  **Prerequisites:**
     - Ensure you have Python 3.6+ installed.
-    - Install the required packages using `pnpm install -r`.
+    - Create a virtual environment: `python3 -m venv .venv`
+    - Activate the virtual environment: `source .venv/bin/activate`
+    - Install the required packages using `pip install -r requirements.txt`.
     - Obtain a Google Gemini API key and store it in a file named `api_key.py`. The file should contain the following line: `API_KEY = "YOUR_API_KEY"`, where `YOUR_API_KEY` is your actual API key.
 2.  **Setup:**
     - Place your PDF files in the `input_books` directory.
