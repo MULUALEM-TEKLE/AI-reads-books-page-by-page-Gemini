@@ -4,3 +4,4 @@
 .clinerules
 api_key.py
 /venv
+.DS_Store
